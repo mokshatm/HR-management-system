@@ -1,0 +1,22 @@
+# Secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Frontend dependencies and builds
+node_modules/
+.next/
+dist/
+build/
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
